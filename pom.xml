@@ -15,7 +15,7 @@
 	<description>Tracker de casos do Corona Vírus</description>
 
 	<properties>
-		<java.version>16</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -56,8 +56,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
